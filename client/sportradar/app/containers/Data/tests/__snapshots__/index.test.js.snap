@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Data /> should render its heading 1`] = `
+<div
+  class="Data__DataWrapper-sc-1074mw2-0 iRLTwv"
+>
+  <p>
+    Sorry, data could not be retrieved !
+  </p>
+</div>
+`;
