@@ -5,6 +5,7 @@
   "main": "dist/app.js",
   "scripts": {
     "startServer": "tsc && node dist/app.js",
+    "installAll": "npm install && cd client/sportradar && npm install && cd ../..",
     "start": "tsc && cd client/sportradar && npm run build && cd ../.. && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
